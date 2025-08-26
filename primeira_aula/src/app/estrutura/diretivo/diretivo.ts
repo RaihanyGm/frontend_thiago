@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class Diretivo {
 
+  mostraMensagem = true;
+
+  toggleMensagem() {
+    this.mostraMensagem = !this.mostraMensagem;
+  }
 }
